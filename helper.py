@@ -31,7 +31,7 @@ stop_words = stopwords.words('english')
 
 
 tmdb = TMDb()
-tmdb.api_key="12aee6e6e9db1d19c5d8078b2188e3a6"
+tmdb.api_key="<your API KEY >"
 tmdb_movie = Movie()
 
 def get_info(title):
@@ -39,7 +39,7 @@ def get_info(title):
   result = tmdb_movie.search(title)
   if result:
     movie_id = result[0].id
-    response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=12aee6e6e9db1d19c5d8078b2188e3a6')
+    response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=<your API KEY >')
     data_json = response.json()
   else:  
     return None
