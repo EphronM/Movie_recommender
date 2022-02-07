@@ -1,0 +1,9 @@
+streamlit==0.76.0
+pandas
+nltk
+requests
+tmdbv3api
+urlextract
+matplotlib
+bs4
+sklearn
