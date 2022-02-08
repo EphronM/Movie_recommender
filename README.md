@@ -55,6 +55,9 @@ streamlit run app.py
 ```
 
 ## What all does this webapp shows?
+
+![VN20220207_221420 (1)](https://user-images.githubusercontent.com/94764266/152937614-388f1bdc-7bb6-45de-969e-8bc9ae701044.gif)
+
 when searching any movies name, the web App gets you the details such as
 
 * The movie poster along with a short summary and its IMDB ID.
@@ -98,7 +101,7 @@ Thus summaring the whole paragraph in a single sentence.
 
 ### Sentimental Analysis
 
-![pie](https://user-images.githubusercontent.com/94764266/152921373-343fbf36-e173-449e-a032-626018b8c7d7.png)
+![pie](https://user-images.githubusercontent.com/94764266/152921673-29d6ac06-1dff-4b9d-a4ac-470e4610053d.png)
 
 Converting the reviews dataset into TfiD vectors and thus Training a supervised Naive Bayes model to predict the review sentiments.
 The Vectorizer model is pickled loaded into the code for transforming and classfiying the collected movie revies.
